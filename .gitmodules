@@ -1,0 +1,3 @@
+[submodule "lib/libgcrypt"]
+	path = lib/libgcrypt
+	url = git://git.gnupg.org/libgcrypt.git
