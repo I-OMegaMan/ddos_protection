@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.1)
+project(lab1 LANGUAGES C)
+add_executable(lab2_p1 lab2_p1.c buffer.c)
+#add_executable( progb.c)
+#add_executable(part2_prog part2_prog.c)
+target_link_libraries(lab2_p1 pthread)
